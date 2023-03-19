@@ -57,9 +57,8 @@ a {
 
 @media screen and (max-width:425px){
     body {
-        background: url("/images/bg3.jpg");
+        background: url("/images/bg4.jpg");
         background-position: center;
-        background-attachment:fixed;
         background-size: cover;
     }
     h1 {
