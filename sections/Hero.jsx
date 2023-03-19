@@ -9,7 +9,7 @@ const Hero = () => {
     <div className={heroStyles.container}>
       <h1
         className={utilStyles.centreText}
-        data-aos="fade-down"
+        data-aos="fade-in"
         data-aos-delay="500"
         data-aos-duration="500"
         data-aos-easing="ease-in"
@@ -19,11 +19,11 @@ const Hero = () => {
       <Image
         src={"/images/hero_img.jpeg"}
         alt="project management visualisation"
-        width={666.67}
-        height={353.89}
+        width={960}
+        height={501.6}
         className={heroStyles.img}
-        data-aos="fade-up"
-        data-aos-delay="500"
+        data-aos="fade-in"
+        data-aos-delay="700"
         data-aos-duration="500"
         data-aos-easing="ease-in"
       />
