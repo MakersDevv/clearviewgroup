@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { BiMobile } from "react-icons/bi";
+import { MdEmail } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -40,10 +43,10 @@ export default function NavBar() {
       <Link href="/">
         <span className="logo">
           <Image
-            src={"/images/logo.jpg"}
+            src={"/images/logo.png"}
             alt="Logo"
-            height={50.36}
-            width={196.36}
+            height={62.95}
+            width={245.45}
             style={{marginRight: ".5em" }}
           />
        
@@ -58,32 +61,30 @@ export default function NavBar() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/services">Services</Link>
+            <Link href="/request-quotation">Request quotation</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/help">Help</Link>
           </li>
         </ul>
         <div className="nav-socials">
-          <span>Stay connected with us</span>
+          <span>Contact us</span>
           <div>
             <a
-              href="https://www.instagram.com/oblesremoval/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#fff", marginRight: ".5em" }}
+              href="mailto:projects@clearviewgroup.joburg"
+              style={{ marginLeft: ".5em" }}
               onClick={closeNav}
             >
-              <FaInstagram size="1.7rem" color="#000" />
+              <MdEmail size="1.7rem" color="#000"/>
             </a>
             <a
-              href="https://www.facebook.com/people/Obles-Removal-company/100063752329743/"
+              href="https://wa.me/27710342771"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#fff", marginLeft: ".5em" }}
               onClick={closeNav}
             >
-              <FaFacebook size="1.7rem" color="#000" />
+              <IoLogoWhatsapp size="1.7rem" color="#000"/>
             </a>
           </div>
         </div>

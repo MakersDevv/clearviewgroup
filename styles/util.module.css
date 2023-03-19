@@ -1,0 +1,21 @@
+.centreText {
+    text-align: center;
+}
+
+.containerPadding {
+    padding: 0 5rem;
+}
+
+.containerBgBorder {
+    background-color: #fff;
+    border: solid var(--grey) 2px;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px #dddddd;
+}
+
+@media screen and (max-width: 768px) {
+    .containerPadding {
+        padding: 0;
+    }
+}

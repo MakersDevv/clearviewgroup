@@ -1,0 +1,16 @@
+.faqPair {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 425px) {
+    .question {
+        font-size: 1.25rem;
+    }
+}

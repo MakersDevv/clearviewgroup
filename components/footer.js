@@ -1,24 +1,15 @@
-import Link from "next/link";
-import React from "react";
-import { AiFillInstagram } from "react-icons/ai";
+import footerStyles from "../styles/footer.module.css";
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer>
-      <span
-        className="local"
-        style={{ padding: "0" }}
-      >
-        &copy; 2023 <Link href="/" style={{fontFamily: "grifter"}}>MakersDev</Link> &#127487;&#127462;
-      </span>
-      <span className="socials">
-        <span>Stay connected with us</span>
-        <Link href="https://www.instagram.com/makersdev/"  target="_blank" rel="noreferrer">
-          <AiFillInstagram size="2rem" />
-        </Link>
+    <footer className={footerStyles.footer}>
+      <span>&copy; Clearviewgroup</span>
+      <span className={footerStyles.plug}>
+        Website made by{" "}
+        <a href="https://makersdev.com/" className={footerStyles.siteLink}>
+          MakersDev
+        </a>
       </span>
     </footer>
   );
-};
-
-export default Footer;
+}
