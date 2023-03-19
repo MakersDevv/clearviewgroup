@@ -19,7 +19,8 @@
 .inputContainer input, .inputContainer textarea {
     border: none;
     border-bottom: solid #bdbdbd 1px;
-    width: 400px;
+    width: 100%;
+
 }
 
 .inputContainer input:focus, .inputContainer textarea:focus {
