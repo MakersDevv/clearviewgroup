@@ -14,7 +14,7 @@ const Hero = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in"
       >
-        Leading with purpose, delivering with results
+        We See Beyond
       </h1>
       <Image
         src={"/images/hero_img.jpeg"}
