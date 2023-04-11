@@ -2,7 +2,7 @@ import contactUsStyles from "../styles/contactUs.module.css";
 import utilStyles from "../styles/util.module.css";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiMobile } from "react-icons/bi";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdLocationOn } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Image from "next/image";
 
@@ -26,7 +26,7 @@ const ContactUs = () => {
           height={144}
           style={{ alignSelf: "center", marginBottom: "2rem" }}
         />
-        <div className={contactUsStyles.detailContainer}>
+        {/* <div className={contactUsStyles.detailContainer}>
           <span className={contactUsStyles.detailTitle}>
             <span style={{ marginRight: ".5rem" }}>
               <BsFillTelephoneFill />
@@ -34,15 +34,15 @@ const ContactUs = () => {
             Telephone:
           </span>
           <span>072 810 4010</span>
-        </div>
+        </div> */}
         <div className={contactUsStyles.detailContainer}>
           <span className={contactUsStyles.detailTitle}>
             <span style={{ marginRight: ".5rem" }}>
               <BiMobile />
             </span>
-            Mobile:
+            Phone:
           </span>
-          <span>071 034 2771 | 072 100 2269</span>
+          <span>071 034 2771</span>
         </div>
         <div className={contactUsStyles.detailContainer}>
           <span className={contactUsStyles.detailTitle}>
@@ -59,18 +59,18 @@ const ContactUs = () => {
               color: "var(--blue)",
             }}
           >
-            <a
+            {/* <a
               className={contactUsStyles.emailLink}
               href="mailto:projects@clearviewgroup.joburg"
             >
               projects@clearviewgroup.joburg
-            </a>
-            <span style={{ color: "#000" }}>{" | "}</span>
+            </a> */}
+            {/* <span style={{ color: "#000" }}>{" | "}</span> */}
             <a
               className={contactUsStyles.emailLink}
-              href="mailto:clearviewgroup@mweb.co.za"
+              href="mailto:projects.clearview@mweb.co.za"
             >
-              clearviewgroup@mweb.co.za
+              projects.clearview@mweb.co.za
             </a>
           </span>
         </div>
@@ -82,6 +82,24 @@ const ContactUs = () => {
             WhatsApp:
           </span>
           <a href="https://wa.me/27710342771">071 034 2771</a>
+        </div>
+        <div className={contactUsStyles.detailContainer}>
+          <span className={contactUsStyles.detailTitle}>
+            <span style={{ marginRight: ".5rem" }}>
+              <MdLocationOn />
+            </span>
+            Address:
+          </span>
+
+          <span>
+            <span>443 Doberman Street</span>
+            <span style={{ color: "#000" }}>{" | "}</span>
+            <span>Commercia Ext 9</span>
+            <span style={{ color: "#000" }}>{" | "}</span>
+            <span>Midrand</span>
+            <span style={{ color: "#000" }}>{" | "}</span>
+            <span>1684</span>
+          </span>
         </div>
       </div>
     </section>
