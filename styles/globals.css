@@ -1,77 +1,99 @@
 @import url("./navigation.css");
 @font-face {
-    font-family: generalSansRegular;
-    src: url("/fonts/GeneralSans-Regular.ttf");
+  font-family: generalSansRegular;
+  src: url("/fonts/GeneralSans-Regular.ttf");
 }
 
 @font-face {
-    font-family: satoshiMedium;
-    src: url("/fonts/Satoshi-Regular.ttf");
+  font-family: satoshiMedium;
+  src: url("/fonts/Satoshi-Regular.ttf");
+}
+
+@font-face {
+  font-family: centuryGothic;
+  src: url("/fonts/CenturyGothic.ttf");
+}
+
+@font-face {
+  font-family: twCen;
+  src: url("/public/fonts/TwCenMTStd.otf");
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 :root {
-    --blue: #3778f4;
-    --light-blue: #0bb6fc;
-    --orange: #fb8112;
-    --purple: #504eec;
-    --grey: #d6e9f1;
+  --blue: #3778f4;
+  --light-blue: #0bb6fc;
+  --orange: #fb8112;
+  --purple: #504eec;
+  --grey: #d6e9f1;
 }
 
 body {
-    overflow-x: hidden;
-    font-family: generalSansRegular;
-    margin: 0;
-    background: url("/images/bg2.jpg");
-    background-position: center;
-    background-attachment:fixed;
-    background-size: cover;
+  overflow-x: hidden;
+  font-family: centuryGothic;
+  margin: 0;
+  background: url("/images/bg2.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-h1, h2, h3 {
-    text-transform: capitalize;
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
 }
 h1 {
-    font-family: satoshiMedium;
-    font-size: 2.5rem;
+  font-family: centuryGothic;
+  font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-ul, p, span, label, input, textarea {
-    font-size: 1.1rem;
-    font-family: generalSansRegular;
+ul,
+p,
+span,
+label,
+input,
+textarea {
+  font-size: 1.1rem;
+  font-family: centuryGothic;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
-@media screen and (max-width:425px){
-    body {
-        background: url("/images/bg4.jpg");
-        background-position: center;
-        background-size: cover;
-    }
-    h1 {
-        font-size: 2.25rem;
-    }
-    h2{
-        font-size: 1.75rem;
-    }
-    h3 {
-        font-size: 1.25rem;
-    }
+@media screen and (max-width: 425px) {
+  body {
+    background: url("/images/bg4.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
 
-    ul, p, span, label, input, textarea {
-        font-size: 1.05rem;
-    }
+  ul,
+  p,
+  span,
+  label,
+  input,
+  textarea {
+    font-size: 1.05rem;
+  }
 }

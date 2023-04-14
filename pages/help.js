@@ -8,7 +8,7 @@ const HelpPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Help</title>
+        <title>Clearviewgroup | Help</title>
         <meta charSet="utf-8" />
         <meta
           name="viewport"
@@ -39,7 +39,7 @@ const HelpPage = () => {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <Faqs />
+      {/* <Faqs /> */}
       <ContactUs />
       <ReqPA />
     </Layout>

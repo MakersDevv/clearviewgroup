@@ -6,7 +6,7 @@ const RequestQuotaionPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Request quotation</title>
+        <title>Clearviewgroup | Request quotation</title>
         <meta charSet="utf-8" />
         <meta
           name="viewport"

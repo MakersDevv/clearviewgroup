@@ -16,10 +16,19 @@
   padding: 1.5em;
 }
 
+.socials {
+  position: absolute;
+  left: 0;
+  padding-left: 0.5rem;
+}
+
+.socials a {
+  margin: 0 0.25rem;
+}
 .plug {
   position: absolute;
   right: 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding-right: 2rem;
 }
 
@@ -29,6 +38,12 @@
 }
 
 @media screen and (max-width: 625px) {
+  .socials {
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
   .footer {
     flex-direction: column;
     height: fit-content;
@@ -38,6 +53,6 @@
   .plug {
     position: relative;
     padding: 0;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
   }
 }

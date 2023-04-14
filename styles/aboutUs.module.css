@@ -21,9 +21,14 @@
   width: 280px;
   height: 400px;
   margin-bottom: 4rem;
-  height: 640px;
+  height: 680px;
 }
 
+.detail ul li, .detailExpanded ul li {
+  letter-spacing: .15px;
+  margin-bottom: .25rem;
+  font-size: 1.05rem;
+}
 .detail ul, .detailExpanded ul {
   padding-left: 1.5rem;
 }
@@ -43,7 +48,7 @@
 
 .detail h3 {
   position: relative;
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-bottom: 0;
   text-align: center;
 }

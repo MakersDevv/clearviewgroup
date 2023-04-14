@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section className={utilStyles.containerPadding} style={{ width: "100%" }}>
       <h2
         className={utilStyles.centreText}
-        style={{ marginBottom: "0" }}
+        style={{ marginBottom: "2rem" }}
         data-aos="fade-in"
         data-aos-delay="1500"
         data-aos-duration="500"
@@ -24,23 +24,24 @@ const AboutUs = () => {
       >
         <div
           className={`${aboutStyles.detailExpanded} ${utilStyles.containerBgBorder}`}
-          style={{marginBottom: "1rem"}}
+          style={{ marginBottom: "1rem" }}
           data-aos="fade-in"
           data-aos-delay="1600"
           data-aos-duration="500"
           data-aos-easing="ease-in"
         >
           <Image
-            src={"/images/about_us_img.png"}
+            src={"/images/about.jpg"}
             alt="altText"
-            width={240}
-            height={130}
+            width={305}
+            height={172.5}
+            style={{ borderRadius: "5px" }}
           />
           <h3>Why choose us?</h3>
           <ul>
             <li>
               {
-                "We execute projects from start to finish (End-to-End) using best practices,international and local standards of construction and project management"
+                "We execute projects from start to finish (End-to-End) using best practices, international and local standards of construction and project management"
               }
             </li>
             <li>
@@ -62,51 +63,6 @@ const AboutUs = () => {
           </ul>
         </div>
         <div className={aboutStyles.detailsContainer}>
-          {/* <div
-            className={`${aboutStyles.detail} ${utilStyles.containerBgBorder}`}
-            data-aos="fade-in"
-            data-aos-delay="1600"
-            data-aos-duration="500"
-            data-aos-easing="ease-in"
-          >
-            <Image
-              src={"/images/about_us_img.png"}
-              alt="altText"
-              width={240}
-              height={130}
-            />
-            <h3>Who we are</h3>
-            <p>
-              {`We execute projects from start to finish (End-to-End) using
-              international standards of project and construction management. We use
-              customer-centric approaches that are easily adaptable. We focus on
-              our clients' goals throughout`}
-            </p>
-          </div> */}
-
-          {/* <div
-            className={`${aboutStyles.detail} ${utilStyles.containerBgBorder}`}
-            data-aos="fade-in"
-            data-aos-delay="1700"
-            data-aos-duration="500"
-            data-aos-easing="ease-in"
-          >
-            <Image
-              src={"/images/projmanagement.webp"}
-              alt="altText"
-              width={240}
-              height={130}
-            />
-            <h3>What we do</h3>
-            <ol>
-              <li>Multidisciplinary Project management</li>
-              <li>Construction Management Value-Add Services</li>
-              <li>Project Management</li>
-              <li>Building and Construction</li>
-              <li>Fuels systems</li>
-              <li>Value Added Services</li>
-            </ol>
-          </div> */}
           <div
             className={`${aboutStyles.detail} ${utilStyles.containerBgBorder}`}
             data-aos="fade-in"
@@ -115,23 +71,23 @@ const AboutUs = () => {
             data-aos-easing="ease-in"
           >
             <Image
-              src={"/images/projmanagement.webp"}
+              src={"/images/img10.jpg"}
               alt="altText"
               width={240}
               height={130}
             />
             <h3>What we do</h3>
             <ul>
-              <li>Multidisciplinary Project management</li>
-              <li>Construction Management</li>
+              <li>Multi-disciplinary project management</li>
+              <li>Construction management</li>
               <li>Building redesign and upgrade</li>
               <li>Building repairs</li>
               <li>Plumbing</li>
-              <li>Fuels Systems</li>
-              <li>Value-Added Services</li>
+              <li>Fuels systems</li>
+              <li>Value-added services</li>
               <ul>
                 <li>Professional advice</li>
-                <li>Tendering Support</li>
+                <li>Tendering support</li>
                 <li>Stakeholder engagement</li>
                 <li>Transportation</li>
                 <li>Horticulture</li>
@@ -157,35 +113,14 @@ const AboutUs = () => {
             <ul>
               <li>Investors</li>
               <li>Fuel retailers</li>
-              <li>Warehouses and Depots</li>
+              <li>Warehouses and depots</li>
               <li>Businesses</li>
               <li>Property owners</li>
               <li>Facility managers</li>
               <li>Home owners</li>
-              <li>Public Agencies and {"NGO's"}</li>
+              <li>Public agencies and {"NGO's"}</li>
             </ul>
           </div>
-          {/* <div
-            className={`${aboutStyles.detail} ${utilStyles.containerBgBorder}`}
-            data-aos="fade-in"
-            data-aos-delay="1600"
-            data-aos-duration="500"
-            data-aos-easing="ease-in"
-          >
-            <Image
-              src={"/images/about_us_img.png"}
-              alt="altText"
-              width={240}
-              height={130}
-            />
-            <h3>Why choose us?</h3>
-            <p>
-              {`We execute projects from start to finish (End-to-End) using
-              international standards of project and construction management. We use
-              customer-centric approaches that are easily adaptable. We focus on
-              our clients' goals throughout`}
-            </p>
-          </div> */}
         </div>
 
         <div

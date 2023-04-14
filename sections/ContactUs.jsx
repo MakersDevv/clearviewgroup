@@ -26,15 +26,6 @@ const ContactUs = () => {
           height={144}
           style={{ alignSelf: "center", marginBottom: "2rem" }}
         />
-        {/* <div className={contactUsStyles.detailContainer}>
-          <span className={contactUsStyles.detailTitle}>
-            <span style={{ marginRight: ".5rem" }}>
-              <BsFillTelephoneFill />
-            </span>
-            Telephone:
-          </span>
-          <span>072 810 4010</span>
-        </div> */}
         <div className={contactUsStyles.detailContainer}>
           <span className={contactUsStyles.detailTitle}>
             <span style={{ marginRight: ".5rem" }}>
@@ -59,13 +50,6 @@ const ContactUs = () => {
               color: "var(--blue)",
             }}
           >
-            {/* <a
-              className={contactUsStyles.emailLink}
-              href="mailto:projects@clearviewgroup.joburg"
-            >
-              projects@clearviewgroup.joburg
-            </a> */}
-            {/* <span style={{ color: "#000" }}>{" | "}</span> */}
             <a
               className={contactUsStyles.emailLink}
               href="mailto:projects.clearview@mweb.co.za"
@@ -81,7 +65,12 @@ const ContactUs = () => {
             </span>
             WhatsApp:
           </span>
-          <a href="https://wa.me/27710342771">071 034 2771</a>
+          <a
+            className={contactUsStyles.emailLink}
+            href="https://wa.me/27710342771"
+          >
+            071 034 2771
+          </a>
         </div>
         <div className={contactUsStyles.detailContainer}>
           <span className={contactUsStyles.detailTitle}>

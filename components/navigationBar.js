@@ -3,7 +3,8 @@ import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiMobile } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
-import { IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoWhatsapp, IoLogoFacebook } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -71,7 +72,7 @@ export default function NavBar() {
           <span>Contact us</span>
           <div>
             <a
-              href="mailto:projects@clearviewgroup.joburg"
+              href="mailto:projects.clearview@mweb.co.za"
               style={{ marginLeft: ".5em" }}
               onClick={closeNav}
             >
@@ -85,6 +86,24 @@ export default function NavBar() {
               onClick={closeNav}
             >
               <IoLogoWhatsapp size="1.7rem" color="#000"/>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/clearview-cg/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#fff", marginLeft: ".5em" }}
+              onClick={closeNav}
+            >
+              <BsLinkedin size="1.7rem" color="#000"/>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100091843535302&mibextid=ZbWKwL"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#fff", marginLeft: ".5em" }}
+              onClick={closeNav}
+            >
+              <IoLogoFacebook size="1.7rem" color="#000"/>
             </a>
           </div>
         </div>

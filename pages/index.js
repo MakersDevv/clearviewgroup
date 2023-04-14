@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Home</title>
+        <title>Clearviewgroup | Project management firm</title>
         <meta charSet="utf-8" />
         <meta
           name="viewport"
