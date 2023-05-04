@@ -78,7 +78,7 @@ const ReqPA = () => {
       data-aos-duration="500"
       data-aos-easing="ease-in"
     >
-      <h1 className={utilStyles.centreText}>Request professional advice</h1>
+      <h1 className={utilStyles.centreText} style={{marginTop: "3rem"}}>Request professional advice</h1>
       <div>
         <form
           className={`${formStyles.form} ${utilStyles.containerBgBorder}`}

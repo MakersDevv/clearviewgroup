@@ -49,6 +49,7 @@ export default function NavBar() {
             height={62.95}
             width={245.45}
             style={{marginRight: ".5em" }}
+            priority
           />
        
         </span>

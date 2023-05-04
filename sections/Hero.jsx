@@ -28,6 +28,7 @@ const Hero = () => {
         data-aos-delay="700"
         data-aos-duration="500"
         data-aos-easing="ease-in"
+        priority
       />
     </div>
   );

@@ -3,16 +3,17 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
+    padding-top: 0rem;
     min-height: 100vh;
 }
 
 @media screen and (min-width: 1500px){
     .main {
-        padding: 3rem 10em;
+        padding: 1.5rem 10em;
     }
 }
 @media screen and (max-width:425px) {
     .main {
-        padding: 1rem 2rem;
+        padding: 1rem 1.5rem;
     }
 }

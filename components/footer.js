@@ -42,7 +42,7 @@ export default function Footer() {
       <span>&copy; Clearviewgroup</span>
       <span className={footerStyles.plug}>
         Website made by{" "}
-        <a href="https://makersdev.com/" className={footerStyles.siteLink}>
+        <a href="https://makersdev.com/" target="_blank" className={footerStyles.siteLink}>
           MakersDev
         </a>
       </span>
