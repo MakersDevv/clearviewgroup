@@ -1,6 +1,5 @@
 import contactUsStyles from "../styles/contactUs.module.css";
 import utilStyles from "../styles/util.module.css";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiMobile } from "react-icons/bi";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";

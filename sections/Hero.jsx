@@ -15,15 +15,11 @@ const Hero = () => {
         We See Beyond
       </h1>
       <Image
-        src={"/images/heroimg.png"}
+        src={"/images/heroimg5.png"}
         alt="project management visualisation"
         width={1648}
         height={414}
         className={`${heroStyles.img}`}
-        // style={{
-        //   boxShadow: "0 3px 10px #dddddd",
-        //   border: "solid var(--grey) 2px",
-        // }}
         data-aos="fade-in"
         data-aos-delay="700"
         data-aos-duration="500"
@@ -31,15 +27,11 @@ const Hero = () => {
         priority
       />
       <Image
-        src={"/images/heroimg4.png"}
+        src={"/images/heroimg6.png"}
         alt="project management visualisation"
         width={478}
-        height={605}
+        height={683}
         className={`${heroStyles.img2}`}
-        // style={{
-        //   boxShadow: "0 3px 10px #dddddd",
-        //   border: "solid var(--grey) 2px",
-        // }}
         data-aos="fade-in"
         data-aos-delay="700"
         data-aos-duration="500"
