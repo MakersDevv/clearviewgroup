@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section className={utilStyles.containerPadding} style={{ width: "100%" }}>
       <h2
         className={utilStyles.centreText}
-        style={{ marginBottom: "2rem" }}
+        style={{ margin: "1rem 0" }}
         data-aos="fade-in"
         data-aos-delay="1500"
         data-aos-duration="500"

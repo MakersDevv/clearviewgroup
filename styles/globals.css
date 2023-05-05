@@ -1,23 +1,6 @@
 @import url("./navigation.css");
-@font-face {
-  font-family: generalSansRegular;
-  src: url("/fonts/GeneralSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: satoshiMedium;
-  src: url("/fonts/Satoshi-Regular.ttf");
-}
-
-@font-face {
-  font-family: centuryGothic;
-  src: url("/fonts/CenturyGothic.ttf");
-}
-
-@font-face {
-  font-family: twCen;
-  src: url("/public/fonts/TwCenMTStd.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -32,7 +15,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: centuryGothic;
+  font-family: "Inter";
   margin: 0;
   background: url("/images/bg2.jpg");
   background-position: center;
@@ -43,9 +26,10 @@ h1,
 h2,
 h3 {
   text-transform: capitalize;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
 }
 h1 {
-  font-family: centuryGothic;
   font-size: 2.25rem;
 }
 
@@ -64,7 +48,7 @@ label,
 input,
 textarea {
   font-size: 1.1rem;
-  font-family: centuryGothic;
+  font-family: "Inter";
 }
 
 a {

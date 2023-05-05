@@ -8,10 +8,9 @@
 
 .containerBgBorder {
     background-color: #fff;
-    border: solid var(--grey) 2px;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 3px 10px #dddddd;
+    box-shadow: 0 0px 10px rgb(211, 211, 211);
 }
 
 @media screen and (max-width: 768px) {

@@ -15,15 +15,31 @@ const Hero = () => {
         We See Beyond
       </h1>
       <Image
-        src={"/images/hero1.png"}
+        src={"/images/heroimg.png"}
         alt="project management visualisation"
-        width={1343.33}
-        height={632}
+        width={1648}
+        height={414}
         className={`${heroStyles.img}`}
-        style={{
-          boxShadow: "0 3px 10px #dddddd",
-          border: "solid var(--grey) 2px",
-        }}
+        // style={{
+        //   boxShadow: "0 3px 10px #dddddd",
+        //   border: "solid var(--grey) 2px",
+        // }}
+        data-aos="fade-in"
+        data-aos-delay="700"
+        data-aos-duration="500"
+        data-aos-easing="ease-in"
+        priority
+      />
+      <Image
+        src={"/images/heroimg4.png"}
+        alt="project management visualisation"
+        width={478}
+        height={605}
+        className={`${heroStyles.img2}`}
+        // style={{
+        //   boxShadow: "0 3px 10px #dddddd",
+        //   border: "solid var(--grey) 2px",
+        // }}
         data-aos="fade-in"
         data-aos-delay="700"
         data-aos-duration="500"

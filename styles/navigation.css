@@ -5,7 +5,8 @@
   width: 100%;
   padding: 0.5em 1em;
   color: #000;
-  background-color: var(--grey);
+  padding: 1rem 3rem;
+  /* background-color: var(--grey); */
 }
 
 .logo a {
@@ -23,7 +24,8 @@
   padding: 5px 0;
   margin: 0;
   font-size: 1.5rem;
-  font-family: satoshiMedium;
+  font-family: "Inter";
+  font-weight: 400;
 }
 
 .navigation li {
@@ -140,6 +142,12 @@
 
   .nav-list a {
     margin: 0 1rem !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation {
+    padding: 1rem;
   }
 }
 
