@@ -2,7 +2,7 @@ import footerStyles from "../styles/footer.module.css";
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp, IoLogoFacebook } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
-
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer className={footerStyles.footer}>
@@ -38,11 +38,29 @@ export default function Footer() {
         >
           <IoLogoFacebook size="1.7rem" color="#000" />
         </a>
+        <a
+          href="https://www.bark.com/en/za/company/clearview-group/pbXMa/"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#fff", marginLeft: ".5em" }}
+        >
+          <Image
+            src="/images/bark.png"
+            alt=""
+            width={30}
+            height={30}
+            style={{ filter: "brightness(0)"}}
+          />
+        </a>
       </span>
       <span>&copy; Clearviewgroup</span>
       <span className={footerStyles.plug}>
         Website made by{" "}
-        <a href="https://makersdev.com/" target="_blank" className={footerStyles.siteLink}>
+        <a
+          href="https://makersdev.com/"
+          target="_blank"
+          className={footerStyles.siteLink}
+        >
           MakersDev
         </a>
       </span>
