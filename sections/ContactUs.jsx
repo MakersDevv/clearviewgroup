@@ -4,6 +4,7 @@ import { BiMobile } from "react-icons/bi";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Image from "next/image";
+import { emailAddress } from "../lib/utils";
 
 const ContactUs = () => {
   return (
@@ -51,9 +52,9 @@ const ContactUs = () => {
           >
             <a
               className={contactUsStyles.emailLink}
-              href="mailto:projects.clearview@mweb.co.za"
+              href={`mailto:${emailAddress}`}
             >
-              projects.clearview@mweb.co.za
+              {emailAddress}
             </a>
           </span>
         </div>

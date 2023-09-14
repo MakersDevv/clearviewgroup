@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import Hero from "../sections/Hero";
 import AboutUs from "../sections/AboutUs";
+import Testimonials from "../sections/Testimonials";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Hero />
+      <Testimonials/>
       <AboutUs />
     </Layout>
   );

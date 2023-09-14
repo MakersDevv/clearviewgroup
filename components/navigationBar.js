@@ -7,6 +7,7 @@ import { IoLogoWhatsapp, IoLogoFacebook } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { emailAddress } from "../lib/utils";
 
 export default function NavBar() {
   const [showNavItems, setShowNavItems] = useState(false);
@@ -73,7 +74,7 @@ export default function NavBar() {
           <span>Contact us</span>
           <div>
             <a
-              href="mailto:projects.clearview@mweb.co.za"
+              href={`mailto:${emailAddress}`}
               style={{ marginLeft: ".5em" }}
               onClick={closeNav}
             >

@@ -3,13 +3,14 @@ import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp, IoLogoFacebook } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import Image from "next/image";
+import { emailAddress } from "../lib/utils";
 export default function Footer() {
   return (
     <footer className={footerStyles.footer}>
       <span className={footerStyles.socials}>
         {" "}
         <a
-          href="mailto:projects.clearview@mweb.co.za"
+          href={`mailto:${emailAddress}`}
           style={{ marginLeft: ".5em" }}
         >
           <MdEmail size="1.7rem" color="#000" />
