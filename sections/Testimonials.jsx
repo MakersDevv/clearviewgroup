@@ -1,5 +1,4 @@
 import Testimonial from "../components/testimonial";
-import aboutStyles from "../styles/aboutUs.module.css";
 import utilStyles from "../styles/util.module.css";
 import testimonialStyels from "../styles/testimonials.module.css";
 
@@ -8,7 +7,7 @@ const Testimonials = () => {
     <section className={utilStyles.containerPadding} style={{ width: "100%" }}>
       <h2
         className={utilStyles.centreText}
-        style={{ margin: "1rem 0" }}
+        style={{ margin: "3rem 0 1rem 0" }}
         data-aos="fade-in"
         data-aos-delay="1500"
         data-aos-duration="500"
@@ -37,21 +36,6 @@ const Testimonials = () => {
             "Excellent service, proffessional Project management end to end and very happy with their proffessionalism."
           }
           clientDetails={"Lele"}
-        />
-
-        <Testimonial
-          numStars={[1, 1, 1, 1, 1]}
-          testimonialText={
-            "Team was calm and patient when they were dealing with my needs. I definitely work with for future change."
-          }
-          clientDetails={"Noxolo"}
-        />
-        <Testimonial
-          numStars={[1, 1, 1, 1, 0]}
-          testimonialText={
-            "The job done was perfect and the charges affordable."
-          }
-          clientDetails={"Christine"}
         />
       </div>
     </section>
