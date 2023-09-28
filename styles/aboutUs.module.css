@@ -11,7 +11,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 4rem;
- 
 }
 
 .detail {
@@ -23,16 +22,17 @@
   height: 400px;
   margin-bottom: 4rem;
   height: 680px;
-  
 }
 
-.detail ul li, .detailExpanded ul li {
-  letter-spacing: .15px;
-  margin-bottom: .25rem;
+.detail ul li,
+.detailExpanded ul li {
+  letter-spacing: 0.15px;
+  margin-bottom: 0.25rem;
   font-size: 1.05rem;
   font-family: "Inter";
 }
-.detail ul, .detailExpanded ul {
+.detail ul,
+.detailExpanded ul {
   padding-left: 1.5rem;
 }
 
@@ -67,6 +67,35 @@
   border-radius: 5px;
 }
 
+.qualityContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.qualityContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qualityContainer img {
+  margin-bottom: 27px;
+}
+.qualityContainer div:nth-of-type(2) {
+  margin: 0 3rem;
+}
+
+.qualityContainer span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.qualityContainer ul {
+  font-size: 16px;
+}
+
 @media screen and (max-width: 1440px) {
   .detailsContainer {
     max-width: 1000px;
@@ -79,6 +108,17 @@
 
   .detailExpanded {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .qualityContainer div:nth-of-type(2) {
+    margin: 2rem 0;
+  }
+
+  .qualityContainer {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

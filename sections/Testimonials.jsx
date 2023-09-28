@@ -4,7 +4,7 @@ import testimonialStyels from "../styles/testimonials.module.css";
 
 const Testimonials = () => {
   return (
-    <section className={utilStyles.containerPadding} style={{ width: "100%" }}>
+    <section className={utilStyles.containerPadding} style={{ width: "100%", marginBottom: "3rem"}}>
       <h2
         className={utilStyles.centreText}
         style={{ margin: "3rem 0 1rem 0" }}

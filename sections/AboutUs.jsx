@@ -1,6 +1,8 @@
 import Image from "next/image";
 import aboutStyles from "../styles/aboutUs.module.css";
 import utilStyles from "../styles/util.module.css";
+import { HiCheckBadge } from "react-icons/hi2";
+import { BsCardChecklist } from "react-icons/bs";
 
 const AboutUs = () => {
   return (
@@ -150,6 +152,55 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+      <div className={aboutStyles.qualityContainer}>
+        <div>
+          <Image
+            src={"/images/compliance.webp"}
+            alt="altText"
+            width={100}
+            height={100}
+          />
+          <span>RSA regulatory compliance</span>
+          <ul>
+            <li>CIPC compliant</li>
+            <li>COIDA compliant</li>
+            <li>SARS compliant</li>
+          </ul>
+        </div>
+        <div>
+        <Image
+            src={"/images/wg2.png"}
+            alt="altText"
+            width={100}
+            height={100}
+          />
+          <span>Workmanship guarantee</span>
+          <ul>
+            <li>Guaranteed workmanship</li>
+            <li>Material protection</li>
+            <li>Property Damage protection</li>
+          </ul>
+        </div>
+        <div>
+        <Image
+            src={"/images/wg.png"}
+            alt="altText"
+            width={100}
+            height={100}
+          />
+          <span>1 year defects warranty</span>
+          <ul>
+            <li>Post implementation warranty</li>
+            <li>Defects liabilities cover</li>
+          </ul>
+        </div>
+      </div>
+      {/* <Image
+        src={"/images/about2.jpg"}
+        alt="altText"
+        width={1063}
+        height={380}
+      /> */}
     </section>
   );
 };
