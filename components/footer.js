@@ -9,10 +9,7 @@ export default function Footer() {
     <footer className={footerStyles.footer}>
       <span className={footerStyles.socials}>
         {" "}
-        <a
-          href={`mailto:${emailAddress}`}
-          style={{ marginLeft: ".5em" }}
-        >
+        <a href={`mailto:${emailAddress}`} style={{ marginLeft: ".5em" }}>
           <MdEmail size="1.7rem" color="#000" />
         </a>
         <a
@@ -50,7 +47,7 @@ export default function Footer() {
             alt=""
             width={30}
             height={30}
-            style={{ filter: "brightness(0)"}}
+            style={{ filter: "brightness(0)" }}
           />
         </a>
       </span>
@@ -58,7 +55,7 @@ export default function Footer() {
       <span className={footerStyles.plug}>
         Website made by{" "}
         <a
-          href="https://makersdev.com/"
+          href="https://makersdev.vercel.app/"
           target="_blank"
           className={footerStyles.siteLink}
         >
