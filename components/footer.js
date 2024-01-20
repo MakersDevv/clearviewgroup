@@ -55,11 +55,11 @@ export default function Footer() {
       <span className={footerStyles.plug}>
         Website made by{" "}
         <a
-          href="https://makersdev.vercel.app/"
+          href="https://www.weblaunchza.com/"
           target="_blank"
           className={footerStyles.siteLink}
         >
-          MakersDev
+          WebLaunchZA
         </a>
       </span>
     </footer>
